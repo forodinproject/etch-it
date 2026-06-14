@@ -4,10 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <script src="./assets/scripts/main.js" defer></script>
     <title>Etch-It</title>
 </head>
 
 <body>
+    <h1>Etch a Sketch</h1>
+
+    <div class="controls">
+        <label for="sizeInput">
+            Size:
+            <input type="range" id="sizeInput" min="1" max="50" value="16" autocomplete="off">
+            <input type="number" id="sizeValue" min="1" max="50" value="16" autocomplete="off">
+        </label>
+    </div>
+    <div id="container">
+
+    </div>
 </body>
 
 </html>
